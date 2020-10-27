@@ -1,0 +1,52 @@
+.exitConfirmModal {
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__close {
+    }
+    &__exit {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__text {
+        margin-bottom: 16px;
+        font: normal normal 300 24px/30px Raleway;
+        letter-spacing: -0.48px;
+        color: #ffffff;
+      }
+      &__yes {
+        width: 104px;
+        height: 32px;
+        margin-bottom: 16px;
+        & button {
+          width: 100%;
+          height: 100%;
+          background: #265083 0% 0% no-repeat padding-box;
+          box-shadow: 0px 3px 5px #ffffff7d;
+          border-radius: 24px;
+          font: normal normal normal 20px/20px Raleway;
+          letter-spacing: 0.4px;
+          color: #ffffff;
+          text-transform: capitalize;
+        }
+      }
+      &__no {
+        width: 104px;
+        height: 32px;
+        & button {
+          width: 100%;
+          height: 100%;
+          background: #265083 0% 0% no-repeat padding-box;
+          box-shadow: 0px 3px 5px #ffffff7d;
+          border-radius: 24px;
+          font: normal normal normal 20px/20px Raleway;
+          letter-spacing: 0.4px;
+          color: #ffffff;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}

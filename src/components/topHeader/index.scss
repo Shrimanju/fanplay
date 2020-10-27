@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.topHeader {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: #265083 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &__headerText {
+    font: normal normal medium 20px/34px Raleway;
+    letter-spacing: -0.4px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  &__backArrow {
+    position: absolute;
+    left: 0px;
+    margin-left: 16px;
+    top: 6px;
+    & i {
+      color: #ffffffc9;
+    }
+    //Add the Css for the back arrow
+    // transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+  }
+}

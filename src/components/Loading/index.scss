@@ -1,0 +1,25 @@
+.loading {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #808080;
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__text {
+      font: normal normal 600 24px/46px Raleway;
+      letter-spacing: -0.48px;
+      color: #ffffff;
+    }
+    &__gif {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

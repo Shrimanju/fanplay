@@ -1,0 +1,34 @@
+.previousQuizCardContainer {
+  height: 32px;
+  background: #2650837a;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 8px;
+}
+
+//global CSS
+.inlineBlock {
+  display: inline-block;
+}
+.quizNameFont {
+  font: normal normal normal 16px/18px Raleway;
+  letter-spacing: 0.64px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.dateFont {
+  font: normal normal normal 14px/30px Raleway;
+  letter-spacing: -0.28px;
+  color: #ffffff;
+  padding-right: 12px;
+}
+.countFont {
+  font: normal normal normal 16px/30px Gotham;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+  padding-left: 12px;
+  border-left: 2px solid #a22f47;
+}

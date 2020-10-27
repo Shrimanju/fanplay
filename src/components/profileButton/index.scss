@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.btnContainer {
+  display: inline-block;
+  width: 56px;
+  height: 16px;
+  // margin-right: 0; //to push the centered button to left
+  &__btn {
+    // height: 16px;
+    height: 100%;
+    width: 100%;
+    background: #a22f47;
+    border-radius: 20px;
+    // height: 14px;
+    text-align: center;
+    font: normal normal normal 12px/30px Raleway;
+    letter-spacing: -0.24px;
+    color: #cccccc;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: none;
+  }
+}

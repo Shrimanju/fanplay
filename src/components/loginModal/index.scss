@@ -1,0 +1,213 @@
+.loginModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // staging changes
+  // margin-top: 25%;
+  &__close {
+    position: fixed;
+    z-index: 1000;
+    right: 0px;
+    top: 165px;
+    &__btn {
+      border: none;
+      font-size: 50px;
+      transform: rotate(45deg);
+      color: white;
+      background: transparent;
+    }
+  }
+  &__phoneNum {
+    width: 11.87rem;
+    height: 2.5rem;
+    // margin-top: 35px;
+    margin-bottom: 8px;
+    //staging changes
+    margin-top: calc(50% - 57.3px);
+
+    &__input {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      background: #4d4d4d75;
+      font: normal normal normal 16px/30px Raleway;
+      color: #ffffff;
+    }
+  }
+  &__password {
+    width: 11.87rem;
+    height: 2.5rem;
+    margin-bottom: 12px;
+    &__input {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      background: #4d4d4d75;
+      font: normal normal normal 16px/30px Raleway;
+      color: #ffffff;
+    }
+  }
+  &__login {
+    width: 7.25rem;
+    height: 1.5rem;
+    margin-bottom: 5px;
+    &__btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      background: #99999975;
+      font: normal normal normal 16px/30px Raleway;
+      color: #ffffff;
+    }
+  }
+  &__forgotpwd {
+    margin-bottom: 14px;
+    &__btn {
+      font: normal normal normal 16px/30px Raleway;
+      letter-spacing: -0.32px;
+      color: #999999;
+    }
+  }
+  &__divider {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+    &__bar {
+      width: 81px;
+      height: 0px;
+      border: 3px solid #999999;
+    }
+    &__or {
+      text-align: center;
+      font: normal normal normal 16px/30px Raleway;
+      letter-spacing: -0.32px;
+      color: #ffffff;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  &__signUp {
+    width: 11.87rem;
+    height: 2.5rem;
+    margin-bottom: 9px;
+    &__btn {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      background: #99999975;
+      font: normal normal normal 16px/30px Raleway;
+      color: #ffffff;
+    }
+  }
+  &__enterOtp {
+    &__btn {
+      // background-color: Transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      font: normal normal normal 16px/30px Raleway;
+      letter-spacing: -0.32px;
+      color: #ffffff;
+      //staging changes
+      border-radius: 24px;
+      background: #999999 0% 0% no-repeat padding-box;
+      margin-top: 20px;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font: normal normal normal 16px/30px Raleway;
+    // letter-spacing: -0.32px;
+    color: #ffffff;
+    padding-left: 2px;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    font: normal normal normal 16px/30px Raleway;
+    // letter-spacing: -0.32px;
+    color: #ffffff;
+    padding-left: 2px;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    font: normal normal normal 16px/30px Raleway;
+    // letter-spacing: -0.32px;
+    color: #ffffff;
+    padding-left: 2px;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    font: normal normal normal 16px/30px Raleway;
+    // letter-spacing: -0.32px;
+    color: #ffffff;
+    padding-left: 2px;
+  }
+}
+// Overiden Modal styles
+// .loginModal .ReactModal__Overlay {
+//   position: fixed !important;
+//   top: 0px !important;
+//   left: 0px !important;
+//   right: 0px !important;
+//   bottom: 0px !important;
+//   display: flex !important;
+//   align-items: center !important;
+//   justify-content: center !important;
+//   background: #00000000 0% 0% no-repeat padding-box !important;
+//   backdrop-filter: blur(6px) !important;
+//   -webkit-backdrop-filter: blur(6px) !important;
+// }
+// .loginModal .ReactModal__Content {
+//   position: absolute !important;
+//   top: calc(50vh - 165px) !important;
+//   left: calc(50vw - 165px) !important;
+//   right: 0px !important;
+//   bottom: 0px !important;
+//   border: none !important;
+//   background: rgb(255, 255, 255);
+//   overflow: auto !important;
+//   border-radius: 4px !important;
+//   outline: none !important;
+//   padding: 0 !important;
+//   width: 330px !important;
+//   height: 330px !important;
+//   background: transparent linear-gradient(270deg, #102f54 0%, #030911 100%) 0%
+//     0% no-repeat padding-box !important;
+//   border-radius: 50% !important;
+// }
+// placeholder colors
+// ::-webkit-input-placeholder {
+//   /* Chrome/Opera/Safari */
+//   font: normal normal normal 16px/30px Raleway;
+//   // letter-spacing: -0.32px;
+//   color: #ffffff;
+//   padding-left: 2px;
+// }
+// ::-moz-placeholder {
+//   /* Firefox 19+ */
+//   font: normal normal normal 16px/30px Raleway;
+//   // letter-spacing: -0.32px;
+//   color: #ffffff;
+//   padding-left: 2px;
+// }
+// :-ms-input-placeholder {
+//   /* IE 10+ */
+//   font: normal normal normal 16px/30px Raleway;
+//   // letter-spacing: -0.32px;
+//   color: #ffffff;
+//   padding-left: 2px;
+// }
+// :-moz-placeholder {
+//   /* Firefox 18- */
+//   font: normal normal normal 16px/30px Raleway;
+//   // letter-spacing: -0.32px;
+//   color: #ffffff;
+//   padding-left: 2px;
+// }

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.upComingQuizCardContainer {
+  height: 80px;
+  background: #2650837a;
+  margin-bottom: 8px;
+  padding: 9px 8px 8px 24px;
+  &__quizName {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  &__date {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+}
+.quizFont {
+  height: 19px;
+  // text-align: left;
+  font: normal normal 600 16px/18px Raleway;
+  letter-spacing: 0.64px;
+  color: #ffffff;
+  text-transform: capitalize;
+  // opacity: 1;
+}
+.startFont {
+  height: 19px;
+  // text-align: left;
+  font: normal normal normal 16px/18px Raleway;
+  letter-spacing: 0.64px;
+  color: #d43d5c;
+  // opacity: 1;
+}
+.startDateFont {
+  height: 16px;
+  // text-align: left;
+  font: normal normal normal 14px/30px Raleway;
+  // letter-spacing: -0.28px;
+  color: #ffffff;
+  // opacity: 1;
+}
+.startTimeFont {
+  height: 16px;
+  // text-align: right;
+  font: normal normal normal 14px/30px Raleway;
+  // letter-spacing: -0.28px;
+  color: #ffffff;
+  // opacity: 1;
+}
+.quizLinkFont {
+  height: 19px;
+  // text-align: left;
+  font: normal normal normal 16px/18px Raleway;
+  letter-spacing: 0.64px;
+  color: #d43d5c;
+  // opacity: 1;
+}
+.linkFont {
+  height: 16px;
+  // text-align: left;
+  font: normal normal normal 14px/30px Raleway;
+  // letter-spacing: -0.28px;
+  color: #ffffff;
+  // opacity: 1;
+}
+.dFlex {
+  display: flex;
+}
+.inlineBlock {
+  display: inline-block;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.startbtnContainer {
+  width: 56px;
+  height: 16px;
+  border-radius: 20px;
+  &__btn {
+    width: 100%;
+    height: 100%;
+    background: #a22f47;
+    border-radius: 20px;
+    font: normal normal normal 12px/30px Raleway;
+    letter-spacing: -0.24px;
+    color: #cccccc;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+  }
+}
+.editCopybtnContainer {
+  width: 40px;
+  height: 16px;
+  border-radius: 20px;
+  &__btn {
+    width: 100%;
+    height: 100%;
+    background: #a22f47;
+    border-radius: 20px;
+    font: normal normal normal 12px/30px Raleway;
+    letter-spacing: -0.24px;
+    color: #cccccc;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+  }
+}

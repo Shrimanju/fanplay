@@ -1,0 +1,20 @@
+.selectQuestionsContainer__btn {
+  text-align: center;
+}
+
+.btnContainer {
+  margin: auto;
+  display: block !important;
+  height: 32px !important;
+  background: #265083 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 5px #ffffff7d;
+  border-radius: 24px;
+  &__btn {
+    font: normal normal normal 20px/30px Raleway;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+
+  //   margin-top: 24px;
+}

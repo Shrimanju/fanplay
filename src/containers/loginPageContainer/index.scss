@@ -1,0 +1,230 @@
+// .loginContainer {
+//   height: 100vh;
+//   &__top {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     height: 61vh;
+//     background: transparent linear-gradient(0deg, #102f54 0%, #000000 100%);
+//     padding-top: 6.1rem;
+//     &__intro {
+//       padding-bottom: 1.94rem;
+//       &__welcome {
+//         font: normal normal 300 24px/30px Raleway;
+//         letter-spacing: -0.48px;
+//         color: #ffffff;
+//       }
+//       &__to {
+//         text-align: center;
+//         font: normal normal 300 24px/30px Raleway;
+//         letter-spacing: -0.48px;
+//         color: #ffffff;
+//       }
+//     }
+//     &__heading {
+//       &__logo {
+//       }
+//       &__fanGame {
+//         background: #ffffff;
+//       }
+//       &__live {
+//         color: #d23d5d;
+//       }
+//     }
+//     &__divider {
+//       border: 2px solid #999999;
+//       width: 4.5rem;
+//       margin-bottom: 0.81rem;
+//     }
+//     &__slogan {
+//       font: normal normal normal 16px/30px Raleway;
+//       letter-spacing: -0.32px;
+//       color: #fea900;
+//       text-transform: capitalize;
+//     }
+//   }
+//   &__bottom {
+//     height: 39vh;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 4rem;
+//     background: transparent linear-gradient(0deg, #102f54 0%, #030911 100%);
+//     backdrop-filter: blur(14px);
+//     -webkit-backdrop-filter: blur(14px);
+//     &__fbBtn {
+//       width: 8.5rem;
+//       border-radius: 20px;
+//       height: 2.5rem;
+//       margin-bottom: 1rem;
+//       & button {
+//         width: 100%;
+//         height: 100%;
+//         border-radius: 20px;
+//         background: #265083;
+//         font: normal normal normal 16px/30px Raleway;
+//         letter-spacing: -0.32px;
+//         color: #ffffff;
+//       }
+//     }
+//     &__googleBtn {
+//       width: 8.5rem;
+//       border-radius: 20px;
+//       height: 2.5rem;
+//       margin-bottom: 1rem;
+//       & button {
+//         width: 100%;
+//         height: 100%;
+//         border-radius: 20px;
+//         background: #d43d5c;
+//         font: normal normal normal 16px/30px Raleway;
+//         letter-spacing: -0.32px;
+//         color: #ffffff;
+//       }
+//     }
+//     &__divider {
+//       margin-bottom: 1rem;
+//       width: 7.25rem;
+//       border: 3px solid #cccccc;
+//     }
+//     &__phoneBtn {
+//       width: 11.5rem;
+//       height: 2.5rem;
+//       border-radius: 20px;
+//       & button {
+//         width: 100%;
+//         height: 100%;
+//         border-radius: 20px;
+//         background: #4d4d4d;
+//         font: normal normal normal 16px/30px Raleway;
+//         letter-spacing: -0.32px;
+//         color: #ffffff;
+//       }
+//     }
+//   }
+// }
+
+// //Modal Styles
+// .loginModal {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   &__close {
+//     /* position: absolute; */
+//     position: fixed;
+//     right: 33px;
+//     z-index: 1000;
+//     color: black;
+//     &__btn {
+//       color: black;
+//       background: black;
+//     }
+//   }
+//   &__phoneNum {
+//     width: 11.87rem;
+//     height: 2.5rem;
+//     margin-top: 45px;
+//     margin-bottom: 8px;
+
+//     &__input {
+//       width: 100%;
+//       height: 100%;
+//       border-radius: 20px;
+//       background: #4d4d4d75;
+//     }
+//   }
+//   &__password {
+//     width: 11.87rem;
+//     height: 2.5rem;
+//     margin-bottom: 12px;
+//     &__input {
+//       width: 100%;
+//       height: 100%;
+//       border-radius: 20px;
+//       background: #4d4d4d75;
+//     }
+//   }
+//   &__login {
+//     width: 7.25rem;
+//     height: 1.5rem;
+//     margin-bottom: 5px;
+//     &__btn {
+//       width: 100%;
+//       height: 100%;
+//       border-radius: 20px;
+//       background: #99999975;
+//     }
+//   }
+//   &__forgotpwd {
+//     margin-bottom: 14px;
+//     &__btn {
+//     }
+//   }
+//   &__divider {
+//     display: flex;
+//     align-items: center;
+//     margin-bottom: 11px;
+//     &__bar {
+//       width: 81px;
+//       height: 0px;
+//       border: 3px solid #999999;
+//     }
+//     &__or {
+//       text-align: center;
+//       font: normal normal normal 16px/30px Raleway;
+//       letter-spacing: -0.32px;
+//       color: #ffffff;
+//       margin-left: 5px;
+//       margin-right: 5px;
+//     }
+//   }
+//   &__signUp {
+//     width: 11.87rem;
+//     height: 2.5rem;
+//     margin-bottom: 9px;
+//     &__btn {
+//       width: 100%;
+//       height: 100%;
+//       border-radius: 20px;
+//       background: #99999975;
+//     }
+//   }
+//   &__enterOtp {
+//     &__btn {
+//     }
+//   }
+// }
+// // Overiden Modal styles
+// .ReactModal__Overlay {
+//   position: fixed !important;
+//   top: 0px !important;
+//   left: 0px !important;
+//   right: 0px !important;
+//   bottom: 0px !important;
+//   /* background-color: rgb(255 255 255 / 40%); */
+//   display: flex !important;
+//   align-items: center !important;
+//   justify-content: center !important;
+//   background: #00000000 0% 0% no-repeat padding-box !important;
+//   /* opacity: 1; */
+//   backdrop-filter: blur(6px) !important;
+//   -webkit-backdrop-filter: blur(6px) !important;
+// }
+// .ReactModal__Content {
+//   position: absolute !important;
+//   top: 0px !important;
+//   left: 0px !important;
+//   right: 0px !important;
+//   bottom: 0px !important;
+//   border: none !important;
+//   background: rgb(255, 255, 255);
+//   overflow: auto !important;
+//   border-radius: 4px !important;
+//   outline: none !important;
+//   padding: 0 !important;
+//   width: 330px !important;
+//   height: 330px !important;
+//   background: transparent linear-gradient(270deg, #102f54 0%, #030911 100%) 0%
+//     0% no-repeat padding-box !important;
+//   border-radius: 50% !important;
+// }

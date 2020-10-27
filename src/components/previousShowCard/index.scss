@@ -1,0 +1,40 @@
+.previousShowCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 12px;
+
+  width: 100%;
+  height: 48px;
+  background: #fea9001e 0% 0% no-repeat padding-box;
+  &__title {
+    font: normal normal normal 16px/18px Raleway;
+    letter-spacing: 0.64px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  &__info {
+      display: flex;
+      align-items: center;
+    &__date {
+      font: normal normal normal 14px/30px Raleway;
+      letter-spacing: -0.28px;
+      color: #ffffff;
+    }
+    &__divider {
+      width: 0px;
+      height: 32px;
+      margin-left: 24px;
+      margin-right: 24px;
+      border: 2px solid #a22f47;
+      background: #a22f47;
+    }
+    &__views {
+      font: normal normal normal 14px/30px Raleway;
+      letter-spacing: -0.28px;
+      color: #ffffff;
+    }
+  }
+}
